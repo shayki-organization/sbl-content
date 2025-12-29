@@ -6,6 +6,8 @@ on:
     paths:
       - fig-files/file-spec/2024-data-points.json
       - fig-files/file-spec/json_to_csv.py
+  schedule:
+    - cron: "0 0 * * *"
 env:
   GIT_USERNAME: CFPBadmin
   GIT_EMAIL: CFPBadmin@users.noreply.github.com
